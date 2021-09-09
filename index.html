@@ -11,18 +11,49 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
-    <title>js/jq</title>
+    <title>js/jq practices</title>
   </head>
   <body>
-          <div class="container">
-           <h1 class="text-danger">Click the button to change the text</h1>
-           <button class="btn-primary btn" type="button" onclick="textChange()">Click me</button>  
-           <h2 id="h2">Lorem, ipsum dolor sit amet.</h2>
-           <h2 id="h2">Lorem, ipsum dolor sit amet.</h2>   
-           <h2 id="h2">Lorem, ipsum dolor sit amet.</h2>
-           <h2 id="h2">Lorem, ipsum dolor sit amet.</h2>
+           <section>
+      <div class="container">
+        <h1 class="text-primary">Click the button to change the text</h1>
+
+        <button class="btn-primary btn" type="button" onclick="textChangeText()">Click me</button>  
+        <h2 id="h2">Lorem, ipsum dolor sit amet.</h2> 
+
+        <h1 class="text-primary">Date function</h1>
+
+        <button class="btn-secondary btn" type="button" ondblclick="textChange()">Click here</button>  
+        <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+        <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+        <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+        <h3 class="h3">Lorem ipsum dolor sit amet.</h3>
+
+        <h1 class="text-primary">Event hover</h1>
+
+        <button class="btn-danger btn" type="button" onmouseover="textChangeHover()">Click here</button>  
+        <h4 id="h4">Lorem ipsum, dolor sit amet.</h4>
+
+        <h1 class="text-primary">Date function</h1>
+
+        <button class="btn-danger btn" type="button" onmouseout="textChangeDate()">Click here</button>  
+        <h2 id="date"></h2>
+
+        <h1 class="text-primary">Color change</h1>
+        <button class="btn-danger btn" type="button" onclick="textChangeColor()">Click here</button>  
+        <h2 id="red">Lorem ipsum dolor sit, amet.</h2>
+
+        <h1 class="text-primary">Font size change</h1>
+        <button class="btn-danger btn" type="button" onclick="textChangeSize()">Click here</button>  
+        <h2 id="fsize">Lorem ipsum dolor sit, amet.</h2>
+
+
+        <h1 class="text-primary">Use border</h1>
+        <button class="btn-danger btn" type="button" onmouseover="textChangeBorder()">Click here</button>  
+        <h2 id="border">Lorem ipsum dolor sit, amet.</h2>
+      </div>
+    </section>
           
-          </div>
 
            
   
